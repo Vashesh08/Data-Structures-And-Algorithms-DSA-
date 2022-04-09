@@ -28,9 +28,11 @@ Question:
 """
 
 
-# Method 1: Sorting the strings and then comparing if each element of string 's' is same as string 't'
-# Time Complexity: O(nlogn)
-# Space Complexity: O(n)
+"""
+Method 1: Sorting the strings and then comparing if each element of string 's' is same as string 't'
+Time Complexity: O(nlogn)
+Space Complexity: O(n)
+"""
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         s = sorted(s)
@@ -38,14 +40,16 @@ class Solution:
         return t == s
 
 
-# Method 2: Using A Dictionary to keep a count of the occurence of each alphabet in string 's'
-#           and then reducing the count of each alphabet in the string 't'. If the alphabet from string 't'
-#           doesn't exist in dictionary or the count goes below zero, return False. If count equals zero,
-#           remove that key from the dictionary. 
-#           If the dictionary is empty at the end, it is an anagram. Therfore, return True. Else, 
-#           it is not an anagram. Therefore, return False
-# Time Complexity: O(n)
-# Space Complexity: O(n)
+"""
+Method 2: Using A Dictionary to keep a count of the occurence of each alphabet in string 's'
+          and then reducing the count of each alphabet in the string 't'. If the alphabet from string 't'
+          doesn't exist in dictionary or the count goes below zero, return False. If count equals zero,
+          remove that key from the dictionary. 
+          If the dictionary is empty at the end, it is an anagram. Therfore, return True. Else, 
+          it is not an anagram. Therefore, return False
+Time Complexity: O(n)
+Space Complexity: O(n)
+"""
 class Solution:
     def isAnagram(self, s: str, t: str) -> bool:
         empty_list = {}
