@@ -7,5 +7,5 @@ Also Solving Leetcode Problems For Interview Preparation
 
 Following this list:
 
-    <a href="https://twitter.com/Vashesh2" target="_blank" rel="noopener noreferrer">https://neetcode.io/</a> 
+<a href="https://neetcode.io/" target="_blank" rel="noopener noreferrer">https://neetcode.io/</a> 
 
