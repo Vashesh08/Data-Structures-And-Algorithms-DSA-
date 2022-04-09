@@ -5,6 +5,5 @@ Also Solving Leetcode Problems For Interview Preparation
 
 Following this list:
 
-    https://neetcode.io/ 
+    <a href="https://twitter.com/Vashesh2" target="_blank" rel="noopener noreferrer">https://neetcode.io/</a> 
 
-    https://takeuforward.org/interviews/strivers-sde-sheet-top-coding-interview-problems/
