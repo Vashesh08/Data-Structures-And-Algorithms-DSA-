@@ -59,6 +59,7 @@ class Solution:
                 empty_list3.append([words])
         
         return empty_list2
+
     
 """
 Method 2: Using Hashmaps/Dictionary
