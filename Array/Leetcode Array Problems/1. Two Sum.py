@@ -34,12 +34,13 @@ Question:
         Follow-up: Can you come up with an algorithm that is less than O(n2) time complexity?
 """
 
-
-# Method 1: Loop through the array. For every element, loop through the array once more from that particular
-#           index position to find out if another element exists such that the sum of both the elements 
-#           equal to the target.
-# Time Complexity: O(n^2)
-# Space Complexity: O(1)
+"""
+Method 1: Loop through the array. For every element, loop through the array once more from that particular
+          index position to find out if another element exists such that the sum of both the elements 
+          equal to the target.
+Time Complexity: O(n^2)
+Space Complexity: O(1)
+"""
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         length = len(nums)
@@ -50,13 +51,14 @@ class Solution:
                 
 
 
-
-# Method 2: Loop Through The array. For every element, find out its complement(target - element) which needs to be in the array.
-#           Check if the complement is in the keys of the dictionary. If it does not exist, stre the element in the dictionary
-#           with element as the key and its index position as value. If the complement exists, return the index position of the
-#           element and the value of the complement in the dictionary
-# Time Complexity: O(n)
-# Space Complexity: O(n)
+"""
+Method 2: Loop Through The array. For every element, find out its complement(target - element) which needs to be in the array.
+          Check if the complement is in the keys of the dictionary. If it does not exist, stre the element in the dictionary
+          with element as the key and its index position as value. If the complement exists, return the index position of the
+          element and the value of the complement in the dictionary
+Time Complexity: O(n)
+Space Complexity: O(n)
+"""
 class Solution:
     def twoSum(self, nums: list[int], target: int) -> list[int]:
         empty_dict = {}
