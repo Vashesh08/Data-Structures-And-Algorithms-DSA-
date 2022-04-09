@@ -92,3 +92,29 @@ class Solution:
             
         return empty_list
     
+# Method 3: Using Strings
+#           Create an empty dictionary  
+#           Loop through each word in the string 
+#           Create a string of the sorted(word)
+#           Check if the sting exists in the dictionary as a key 
+#           If it doesn't exist, put the sorted word as the key and the value as the word(in the form of a list) itself 
+#           If it exists, then append the word to the value of the dictionary[sorted(key)] 
+#           Return the values of the dictionary as the answer
+# Time Complexity: O(n*m*log(m))
+# Space Complexity: O(n)
+#       n = length of array strs
+#       m = length of every word in strs
+class Solution:
+    def groupAnagrams(self, strs: list[str]) -> list[list[str]]:
+        
+        anagrams = {}
+        
+        for word in strs:
+            key = "".join(sorted(word))
+            if key in anagrams:
+                anagrams[key].append(word)
+            else:
+                anagrams[key] = [word]
+                
+        return anagrams.values()        
+        
