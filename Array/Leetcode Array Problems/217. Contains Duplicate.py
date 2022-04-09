@@ -22,7 +22,10 @@ Constraints:
     -109 <= nums[i] <= 109
 """
 
+
 # Method 1: Using Dictionary 
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 class Solution:
     def containsDuplicate(self, nums: list[int]) -> bool:
         dictionary = {}
@@ -35,6 +38,8 @@ class Solution:
 
 
 # Method 2: Using Sets
+# Time Complexity: O(n)
+# Space Complexity: O(n)
 class Solution:
     def containsDuplicate(self, nums: list[int]) -> bool:
         sets = set()
