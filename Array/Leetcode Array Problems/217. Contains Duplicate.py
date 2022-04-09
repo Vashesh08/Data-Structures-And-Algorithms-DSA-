@@ -24,9 +24,11 @@ Question:
 """
 
 
-# Method 1: Using Dictionary 
-# Time Complexity: O(n)
-# Space Complexity: O(n)
+"""
+Method 1: Using Dictionary 
+Time Complexity: O(n)
+Space Complexity: O(n)
+"""
 class Solution:
     def containsDuplicate(self, nums: list[int]) -> bool:
         dictionary = {}
@@ -38,9 +40,11 @@ class Solution:
         return False
 
 
-# Method 2: Using Sets 
-# Time Complexity: O(n)
-# Space Complexity: O(n)
+"""
+Method 2: Using Sets 
+Time Complexity: O(n)
+Space Complexity: O(n)
+"""
 class Solution:
     def containsDuplicate(self, nums: list[int]) -> bool:
         sets = set()
