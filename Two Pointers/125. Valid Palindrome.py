@@ -114,3 +114,11 @@ class Solution:
         
         return True
         
+
+
+### NOTE: You can implement the alnum function as follows (if using built-in string functions is not allowed to use in interviews)
+def isalnum(c:str):
+    return (ord('A') <= ord(c) <= ord('Z')) or \
+            (ord('a') <= ord(c) <= ord('z')) or \
+            (ord('0') <= ord('c') <= ord('9'))
+ 
