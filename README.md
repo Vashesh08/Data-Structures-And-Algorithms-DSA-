@@ -5,7 +5,6 @@ Implementing common data structures and algorithms in Python
 
 Also Solving Leetcode Problems For Interview Preparation
 
-Following this list:
+<a href="https://leetcode.com/vashesh2001/" target="_blank" rel="noopener noreferrer">My LeetCode Profile</a> 
 
-<a href="https://neetcode.io/" target="_blank" rel="noopener noreferrer">https://neetcode.io/</a> 
 
